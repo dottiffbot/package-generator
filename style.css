@@ -1,0 +1,31 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+	display: none;
+	overflow-y: scroll;
+}
+
+body, html{
+	margin: 0;
+	height: 100%;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+}
+canvas[resize]{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	overflow-y: scroll;
+
+}
+input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: green;
+	z-index: 1;
+}
